@@ -1,5 +1,5 @@
 # About
-This guide is designed to teach people how to use Claude AI using a basic "I want one response" in PHP. This code is used in my travel itinerary generation website [ReisPlan](https://www.reisplan.net) after I migrated it away from ChatGPT. I love how PHP handles JSON and XML data, so this tutorial is a bit easier. I'll be using curl for sending the data.
+This guide is designed to teach people how to use Claude AI by Anthropic using a basic "I want one response" in PHP. This code is used in my travel itinerary generation website [ReisPlan](https://www.reisplan.net) after I migrated it away from ChatGPT. I love how PHP handles JSON and XML data, so this tutorial is a bit easier. I'll be using curl for sending the data.
 
 # Setup
 
@@ -83,7 +83,7 @@ curl_close($curl);
 
 # Receiving the response
 
-We'll just the **json_decode** function to read the $response variable from OpenAI.
+We'll use the **json_decode** function to read the $response variable from Claude AI.
 
 ```PHP
 // Decode the API response
