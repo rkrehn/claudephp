@@ -162,11 +162,7 @@ $temperature = 0.6;
 $messages = [
     [
         'role' => 'system',
-        'content' => 'You are a travel advisor that will deliver a detailed itinerary based on the information provided by the user during the '.$season.' season.'
-    ],
-    [
-        'role' => 'user',
-        'content' => 'I am traveling to Denver, CO.'
+        'content' => 'You are a travel advisor that will deliver a detailed itinerary based on the information provided by the user during the '.$season.' season. I am traveling to Denver, CO.'
     ]
 ];
 
