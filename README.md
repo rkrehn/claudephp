@@ -15,7 +15,7 @@ $apiKey = '[API KEY]';
 
 # Setting up the request
 
-The following code creates the JSON request to Claude AI. You can review all the options you can include here: [https://platform.openai.com/docs/api-reference/chat/create](https://docs.anthropic.com/claude/reference/messages_post).
+The following code creates the JSON request to Claude AI. You can review all the options you can include here: [https://docs.anthropic.com/claude/reference/messages_post](https://docs.anthropic.com/claude/reference/messages_post).
 
 It's worth noting that only the "model", "messages", and "max_tokens" are required in the body. There are [many models](https://docs.anthropic.com/claude/docs/models-overview), but I'm using **claude-instant-1.2** in this example. Likewise, there are a few roles you can use such as system, user, assistance, or function. Typically, the **system** role defines what you want to accomplish. In our example, we'll tell Claude AI **sytem** role that is acting as a travel agent (used on my [ReisPlan](https://www.reisplan.net) site).
 
